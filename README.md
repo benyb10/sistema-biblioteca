@@ -66,6 +66,7 @@ npm start
 
 - Backend: Se ejecuta en http://localhost:5000
 - Frontend: Se ejecuta en http://localhost:3000
+- MongoDB: Debe estar corriendo en puerto 27017
 
 ### Endpoints de la API
 Autores:
