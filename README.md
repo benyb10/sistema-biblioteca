@@ -47,10 +47,11 @@ cd backend
 npm install
 ```
 ### Crear archivo .env en la carpeta backend:
+```bash
 envPORT=5000
 MONGODB_URI=mongodb://127.0.0.1:27017/sistema_biblioteca
 NODE_ENV=development
-
+```
 ### Iniciar backend:
 ```bash
 npm run dev
@@ -67,13 +68,13 @@ npm start
 - Frontend: Se ejecuta en http://localhost:3000
 
 ### Endpoints de la API
-- Autores:
+Autores:
 - GET /api/autores - Obtener todos los autores
 - POST /api/autores - Crear nuevo autor
 - PUT /api/autores/:id - Actualizar autor
 - DELETE /api/autores/:id - Eliminar autor
 
-- Libros:
+Libros:
 - GET /api/libros - Obtener todos los libros
 - POST /api/libros - Crear nuevo libro
 - PUT /api/libros/:id - Actualizar libro
